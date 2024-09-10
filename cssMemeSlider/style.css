@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Georgia, serif;
+  src: url(fonts/georgia-regular.ttf);
+}
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  background: #141414;
+}
+.wrapper {
+  width: 70%;
+  padding: 3vh;
+  background-color: #2b2b2b;
+}
+.image-list {
+  display: flex;
+  max-width: 90%;
+  overflow: hidden;
+}
+.img {
+  width: 100%;
+  border-radius: 3%;
+  box-shadow: 0rem 0rem 0.7rem 0rem #2b2b2b;
+}
+.text-and-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1vh;
+}
+.text-list {
+  display: flex;
+  width: 70%;
+  font-weight: 700;
+  font: 1.2rem Georgia;
+  color: #ffffff;
+  flex-wrap: wrap;
+  padding: 2vh;
+  overflow: hidden;
+}
+.text {
+  width: 95%;
+  white-space: pre-wrap;
+}
+.control-list {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+.control {
+  width: 2vh;
+  height: 2vh;
+  border-radius: 50%;
+  border: #ffffff solid 0.2rem;
+}
