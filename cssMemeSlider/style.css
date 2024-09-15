@@ -80,6 +80,7 @@ input {
   border-radius: 50%;
   transition: 0.3s;
 }
+.control:active .control-span,
 .control-span:active {
   border: 0.3rem solid #c25700;
   background-color: transparent;
@@ -162,6 +163,7 @@ input {
     cursor: pointer;
     transition: 0.3s;
   }
+  .control:hover .control-span,
   .control-span:hover {
     border: 0.3rem solid #c25700;
     transition: 0.3s;
