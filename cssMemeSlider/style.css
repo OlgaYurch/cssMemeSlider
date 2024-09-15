@@ -20,6 +20,7 @@ input {
 .image-list {
   display: flex;
   max-width: 100%;
+  max-height: 80vh;
   overflow: hidden;
 }
 .img {
@@ -53,6 +54,7 @@ input {
 }
 .text {
   width: 100%;
+  min-height: 3rem;
   margin: 0;
   transition: 0.2s;
 }
@@ -210,11 +212,17 @@ input {
   .text-list {
       font: 0.9rem Georgia;
   }
+  .text {
+    min-height: 2rem;
+  }
 }
 
 @media (max-width: 380px) {
   .text-list {
       font: 0.7rem Georgia;
+  }
+  .text {
+    min-height: 1.5rem;
   }
   .control-list {
     gap: 0.4rem;
@@ -226,5 +234,4 @@ input {
     width: 1rem;
     height: 1rem;
   }
-
 }
