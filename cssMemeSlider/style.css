@@ -55,7 +55,8 @@ input {
   justify-content: space-between;
 }
 .control {
-  padding: 0.8rem 0.2rem;
+  padding: 0.8rem 0.4rem;
+  transition: 0.3s;
 }
 .control-span {
   display: block;
@@ -64,4 +65,21 @@ input {
   background-color: #ffffff;
   border: 0.1rem solid #2b2b2b;
   border-radius: 50%;
+  transition: 0.3s;
+}
+.control-span:active {
+  border: 0.3rem solid #c25700;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+@media (hover:hover) {
+  .control:hover {
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .control-span:hover {
+    border: 0.3rem solid #c25700;
+    transition: 0.3s;
+  }
 }
